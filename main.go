@@ -1,9 +1,11 @@
 package main
 
-import (
-	"kelas/a/functions"
-)
+import "fmt"
 
 func main() {
-	functions.HelloWorld()
+	fmt.Println("ini baru")
+}
+
+func add(a, b int32) int32 {
+	return a + b
 }
