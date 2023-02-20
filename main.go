@@ -1,5 +1,9 @@
 package main
 
-func main() {
+import (
+	"kelas/a/functions"
+)
 
+func main() {
+	functions.HelloWorld()
 }
